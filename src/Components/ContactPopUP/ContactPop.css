@@ -1,0 +1,62 @@
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-card {
+    width: 100%;
+    max-width: 28rem;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--background);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .popup-header {
+    position: relative;
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .popup-close {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s;
+  }
+  
+  .popup-close:hover {
+    background-color: var(--muted);
+  }
+  
+  .popup-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .popup-description {
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+  }
+  
+  .popup-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .popup-footer {
+    padding: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  
+  
