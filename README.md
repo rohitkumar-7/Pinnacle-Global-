@@ -1,12 +1,32 @@
-# React + Vite
+# 🌐 Pinnacle Global Trade - React Vite Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official frontend codebase for **Pinnacle Global Trade**, built using [React](https://reactjs.org/) and [Vite](https://vitejs.dev/). This project serves as a modern, fast, and scalable web presence for a global trading company committed to bridging international markets.
 
-Currently, two official plugins are available:
+## 🚀 About Us
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+At **Pinnacle Global Trade**, we are dedicated to bridging international markets through seamless import and export operations. As a trusted global trading partner, we connect reliable importers and exporters worldwide, facilitating the efficient exchange of goods and fostering mutually beneficial relationships.
 
-## Expanding the ESLint configuration
+Our core mission is to provide access to high-quality products at affordable prices, ensuring value for our clients at every stage of the trading process. We meticulously select our partners, prioritizing reliability and integrity to build a robust and dependable global network.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+We take immense pride in representing India on the global stage. Our commitment extends beyond mere transactions; we strive to enhance India's reputation for quality and reliability in international trade. By delivering exceptional service and products, we aim to elevate India's name and contribute to its growing prominence in the global marketplace.
+
+Pinnacle Global Trade is built on a foundation of trust, efficiency, and a relentless pursuit of excellence. We are passionate about facilitating global commerce and empowering businesses to thrive in an interconnected world.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 18+
+- **Bundler:** Vite
+- **Routing:** React Router DOM
+- **Deployment:** Netlify
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/pinnacle-global-trade.git
+cd pinnacle-global-trade
